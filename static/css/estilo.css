@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    background-color: rgb(241, 160, 174);
+    text-align: center;
+    padding: 12px;
+}
+
+/* espaçamento da logo */
+header nav {
+    margin-top: 10px;
+}
+
+/* deixar espacamentos, mudar a cor e deixar letras maiuscula */
+header nav a {
+    color : rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 0px 10px;
+    
+}
+
+    .banner {
+        background-image: url(../img/cachorro\ deitado.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+    
+    
+        text-align: center;
+        margin-top: 100px;  
+        padding: 20px;
+        height: 400px;
+}
+
+    .banner h1 {
+        font-size: 2em;
+        letter-spacing: 0.2em;
+    }
+
+    .banner a {                
+        background-color: rgb(241, 160, 174);
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        font-size: 1.5em;
+        border-radius: 10px;
+        margin-top: 30px;
+        display: inline-block;
+        /* INLINE - FICA EM LINHA  */
+        /* BLOCK PEGA A LINHA TODA */
+        /* fICA EM LINHA MAS PODE USAR MARGIN */
+        /* NONE - APAGA  */
+        
+
+    }
+    .banner a:hover {
+       transform: scale(1.1);
+    }
+
+
+    
+       
+
